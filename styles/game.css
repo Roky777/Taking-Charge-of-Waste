@@ -861,7 +861,7 @@ body.game-runtime-loaded .conveyor__front-beam {
     justify-items: center;
     gap: 0.55rem;
     padding: max(1.25rem, env(safe-area-inset-top)) max(1.25rem, env(safe-area-inset-right)) max(1.25rem, env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left));
-    background: linear-gradient(rgb(168 239 244 / 82%), rgb(58 185 215 / 82%)), url("../assets/backgrounds/shape-lab-factory.png") center / cover;
+    background: linear-gradient(rgb(168 239 244 / 72%), rgb(58 185 215 / 72%)), url("../assets/backgrounds/taking_charge_of_waste_bg_blurred.png") center / cover;
     color: #663017;
     text-align: center;
   }
