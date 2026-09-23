@@ -1,4 +1,4 @@
-import { assets, resolveMathArt } from "../data/assets.js?v=20260923-runtime-smooth-2";
+import { assets, resolveMathArt } from "../data/assets.js?v=20260923-content-audit-1";
 
 function art(artId, className = "", assetSet) {
   const icon = document.createElement("img");

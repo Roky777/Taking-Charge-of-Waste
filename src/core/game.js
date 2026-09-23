@@ -1,14 +1,14 @@
-import { getLevel, MATH_LEVELS } from "../data/math-levels.js?v=20260923-level-pacing-1";
+import { getLevel, MATH_LEVELS } from "../data/math-levels.js?v=20260923-content-audit-1";
 import { createInitialState } from "./state.js?v=20260923-xp-smooth-1";
 import { bindInput } from "./input.js";
 import { createSounds } from "./sounds.js?v=20260923-xp-smooth-1";
 import { renderHud } from "../render/hud.js?v=20260923-xp-display-1";
-import { renderScene } from "../render/scene.js?v=20260923-runtime-smooth-2";
+import { renderScene } from "../render/scene.js?v=20260923-content-audit-1";
 import { getBeltTravelRate, setBeltTravelRate } from "../render/conveyor.js?v=20260923-level-pacing-1";
 import { renderGameUi } from "../ui/game-ui.js?v=20260923-xp-display-1";
 import { TutorialController } from "../tutorial/tutorial-controller.js";
 import { clearGameSave, readGameSave, saveHighestLevel } from "./save.js";
-import { preloadLevelAssets } from "../data/assets.js?v=20260923-runtime-smooth-2";
+import { preloadLevelAssets } from "../data/assets.js?v=20260923-content-audit-1";
 import { createGameAnalytics, getLevelXpMaximum, getObjectXp } from "./analytics.js?v=20260923-xp-display-1";
 import { getStarsForXp } from "./scoring.js?v=20260923-xp-display-1";
 

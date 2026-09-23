@@ -9,13 +9,14 @@ const LEVELS = [{
   bins: [
     { id: "green", label: "Green", art: "leaves" },
     { id: "blue", label: "Blue", art: "bottle" },
+    { id: "special", label: "Special Care", art: "bulb" },
   ],
   items: [
     item("Dried leaves", "leaves", "green"), item("Eggshells", "eggshells", "green"),
     item("Onion peels", "onionpeels", "green"), item("Rotten apple", "apple", "green"),
-    item("Rust metal", "metal", "blue"), item("Glass", "glass", "blue"),
+    item("Rusted metal", "metal", "blue"), item("Glass item", "glass", "blue"),
     item("Plastic bottle", "bottle", "blue"), item("Paper", "paper", "blue"),
-    item("Cloth", "cloth", "blue"), item("Broken light bulb", "bulb", "blue"),
+    item("Cloth", "cloth", "blue"), item("Broken light bulb", "bulb", "special"),
   ],
 }];
 
