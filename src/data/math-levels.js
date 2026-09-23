@@ -5,6 +5,7 @@ const LEVELS = [{
   instruction: "Sort each waste item into the correct dustbin.",
   showNames: true,
   maxOnBelt: 4,
+  beltTravelRate: 0.08,
   bins: [
     { id: "green", label: "Green", art: "leaves" },
     { id: "blue", label: "Blue", art: "bottle" },
